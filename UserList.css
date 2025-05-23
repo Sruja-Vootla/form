@@ -1,0 +1,84 @@
+.userlist-container {
+  background-color: #fefecd;
+  padding: 40px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.userlist-title {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #dddd0f;
+  padding: 8px 16px;
+  font-size: 22px;
+  border-radius: 4px;
+}
+
+.userlist-table {
+  border-collapse: collapse;
+  width: 90%;
+  max-width: 800px;
+  text-align: center;
+  background-color: black;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.userlist-table th,
+.userlist-table td {
+  border: 1px solid #ccc;
+  padding: 10px;
+}
+
+.no-users {
+  text-align: center;
+  font-style: italic;
+  color: black;
+  padding: 10px;
+}
+
+.edit-btn,
+.delete-btn {
+  margin: 0 5px;
+  padding: 5px 10px;
+  font-size: 14px;
+  cursor: pointer;
+  border: none;
+  border-radius: 4px;
+}
+
+.edit-btn {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.delete-btn {
+  background-color: #f44336;
+  color: white;
+}
+
+.header {
+  width: 90%;
+  max-width: 800px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+  position: relative;
+}
+
+.add-user-btn {
+  margin-left: auto; 
+  padding: 8px 16px;
+  background-color: saddlebrown;
+  color: white;
+  border: none;
+  font-weight: bold;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.add-user-btn:hover {
+  background-color: blue;
+}
